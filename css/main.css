@@ -1,0 +1,162 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  background-color: #fff;
+
+  font-family: 'Raleway', sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav a.current {
+  background-color: #333;
+  color: #fff;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+fieldset {
+  border: none;
+}
+
+.white-txt {
+  color: white;
+}
+
+.img1 {
+  background-image: url("../img/background-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px, -100px, 0px, 0px;
+}
+
+.img2 {
+  background-image: url("../img/background-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.img3 {
+  background-image: url("../img/background-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px, -100px, 0px, 0px;
+}
+
+.title {
+  display: block;
+  text-align: center;
+}
+
+.title a {
+  color: #000;
+  text-decoration: none;
+}
+
+.section-black{
+  background-color: #000;
+}
+
+.section-white {
+  background-color: #fff;
+}
+
+.section-dark {
+  background-color: #ccc;
+}
+
+.section-mid {
+  background-color: #e2e2e2;
+}
+
+.section {
+  background-color: #efefef;
+}
+
+.nav {
+    text-align: center;
+  }
+
+.wrapper {
+  max-width: 70em;
+  margin: 0 auto;
+}
+
+.skip-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skip-links a {
+  padding: 0.5em 0.75em;
+  position: absolute;
+  top: -3em;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.125em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
+.wordmark-size {
+  width: 12em;
+}
+
+@media only screen and (min-width: 38em) {
+html
+{
+
+  font-size: 110%;
+  line-height: 1.4;
+
+}
+
+h1{
+  text-align: left;
+}
+
+.nav {
+  text-align: right;
+}
+
+}
+
+@media only screen and (min-width: 60em) {
+html {
+
+  font-size: 120%;
+  line-height: 1.5;
+
+}
+
+}
