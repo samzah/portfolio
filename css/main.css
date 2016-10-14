@@ -14,7 +14,6 @@ html {
 
   background-color: #fff;
 
-  font-family: 'Raleway', sans-serif;
 }
 
 *, *:before, *:after {
@@ -43,29 +42,18 @@ fieldset {
   border: none;
 }
 
+.contct {
+  display: inline-block;
+  position: relative;
+  background: transparent none no-repeat center center;
+  background-size: contain;
+  vertical-align: middle;
+  clear: both;
+  text-align: center;
+}
+
 .white-txt {
   color: white;
-}
-
-.img1 {
-  background-image: url("../img/background-1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0px, -100px, 0px, 0px;
-}
-
-.img2 {
-  background-image: url("../img/background-2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-
-}
-
-.img3 {
-  background-image: url("../img/background-3.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0px, -100px, 0px, 0px;
 }
 
 .title {
@@ -129,7 +117,11 @@ fieldset {
 }
 
 .wordmark-size {
-  width: 12em;
+  width: 7em;
+}
+
+h2 {
+  margin: 0;
 }
 
 @media only screen and (min-width: 38em) {
@@ -147,8 +139,6 @@ h1{
 
 .nav {
   text-align: right;
-}
-
 }
 
 @media only screen and (min-width: 60em) {
