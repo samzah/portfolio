@@ -161,6 +161,9 @@ small, .milli {
   padding-bottom: 0.3250rem;
 }
 
+.pad-left {
+  padding-left: 1rem;
+}
 .island {
   padding: 1.3rem;
 }
@@ -366,7 +369,7 @@ fieldset, pre, table {
 }
 
 .yotta {
-  font-size: 2.2807rem;
+  font-size: 3rem;
   line-height: 1.3154;
 }
 
@@ -415,6 +418,9 @@ small, .milli {
   line-height: 1.8984;
 }
 
+.push-left {
+  margin-left: 1rem;
+}
 .push {
   margin-bottom: 1.5rem;
 }
@@ -465,6 +471,12 @@ small, .milli {
 
 .pad-bottom-quarter, .pad-b-1-4 {
   padding-bottom: 0.3750rem;
+}
+
+.pad-box {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 2em;
 }
 
 .island {
@@ -520,7 +532,7 @@ fieldset, pre, table {
 }
 
 .yotta {
-  font-size: 2.2807rem;
+  font-size: 4.5rem;
   line-height: 1.3154;
 }
 

@@ -32,10 +32,33 @@ text-align: center;
   color: #fff;
 }
 
+/*COLORS*/
+
+.white-txt {
+  color: white;
+}
+.bg-black{
+  background-color: #000;
+}
+.bg-white {
+  background-color: #fff;
+}
+.section-dark {
+  background-color: #ccc;
+}
+.section-mid {
+  background-color: #e2e2e2;
+}
+
+
+/*HEADER*/
+
 header nav a {
   text-decoration: none;
   color: #000;
 }
+
+/*FOOTER*/
 
 footer nav a {
   color: #fff;
@@ -56,9 +79,7 @@ fieldset {
   text-align: center;
 }
 
-.white-txt {
-  color: white;
-}
+/*PORTFOLIO SECTIONS*/
 
 .title {
   display: block;
@@ -70,24 +91,23 @@ fieldset {
   text-decoration: none;
 }
 
-.section-black{
-  background-color: #000;
-}
-
-.section-white {
-  background-color: #fff;
-}
-
-.section-dark {
-  background-color: #ccc;
-}
-
-.section-mid {
-  background-color: #e2e2e2;
-}
 
 .section {
-  background-color: #efefef;
+  position: relative;
+  height: auto;
+  min-height: 27rem;
+}
+
+.portfolio-text {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.section h2 {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
 }
 
 .nav {
