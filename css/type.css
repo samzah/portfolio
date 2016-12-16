@@ -59,6 +59,10 @@ fieldset, pre, table {
   margin: 0 0 1.3rem;
 }
 
+.bigtext {
+  font-size: 10rem;
+  line-height: 1;
+}
 .yotta {
   font-size: 1.5745rem;
   line-height: 1.6513;
